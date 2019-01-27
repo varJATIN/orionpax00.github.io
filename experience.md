@@ -35,7 +35,7 @@ Technologies and software that I used for that are Python, Django, Neo4j, Javasc
 * **OCR**
   * Objective of this project is to get knowledge about Optical character Recognition
   * I used the tensorflow implementation of [EAST: An Efficient and Accurate Scene Text Detector](https://github.com/argman/EAST) algorithm
-* **EEG and RR-Interval data From AIIMS Rishikesh*
+* **EEG and RR-Interval data From AIIMS Rishikesh**
   * Objective was to tune poincare algorithms and Cosinor Plot.
   * I developed a advanced version of poincare algorithms as directed by the doctors of AIIMS and provide them with a command line python package to run it.
   * Cosinor Plot for RR interval data was implemented in matlab 
@@ -43,7 +43,9 @@ Technologies and software that I used for that are Python, Django, Neo4j, Javasc
   * I also worked on automatic PDF generation for data for them code is available [here](https://github.com/durgesh123-iitr/FrequencyDomain)
 * **Image classification**
   * Objective was to learn about deep learning models especially CNNs
-  * I successfully implemented 
+  * I successfully implemented Basis CNN model achitecture in keras and further used pretrained models like *Vgg19,* *Vgg19,* *Alexnet,* *etc* 
+  * I used above models to classify between dog and cat(data from kaggle), among different breeds of dogs(data from kaggle), logo detection(data from flickr), among flowers(data from kaggle) and Chest Xrays (data provided by Dr. Deepak Sharma)(data was not upto the mark *i.e* very less in number so. results was not upto the mark).
+  
 * I have been learning and practicing different Algorithms and framework of Deep Learning and Machine Learning since last year.
 My topics of interest in the area of Artificial intelligence are Computer Vision(Image Processing and Classification), Signal Processing(Bio-Signal and Sound Signals), and Applied Research.
 Applied this for development of a web framework for monitoring of students during their online exam by taking video input using the webcam and detecting the posture of the student to make the final prediction of the state of the student. I further extended this to multi-person pose estimation using OpenPose and I used LSTM for classification of poses in streaming video.
