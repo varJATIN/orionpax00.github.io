@@ -32,7 +32,7 @@ Technologies and software that I used for that are Python, Django, Neo4j, Javasc
   * I used tensorflow model's object detection to get the specific part out 
   * I generate data using [Labelimg](https://github.com/tzutalin/labelImg) which is a tool to create annotation file for image written in python
 
-* **OCR**[](#ocr)
+* **OCR**[](#OCR)
   * Objective of this project is to get knowledge about Optical character Recognition
   * I used the tensorflow implementation of [EAST: An Efficient and Accurate Scene Text Detector](https://github.com/argman/EAST) algorithm
 * **EEG and RR-Interval data From AIIMS Rishikesh**
