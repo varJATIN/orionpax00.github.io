@@ -1,4 +1,5 @@
 ### Experience in  Machine learning, Linux architecture, Shell Scripts, and Development.
+```SVM```   ```Computatinal Biology```  ```Shell Scripts```  ```Django```  ```HPC```  ```Big Data``` ```Bioinformatics```  ```Visualisation```
 * **PPI**
   * objective of the project was to predict the interations of protein of any pathogen with Human Proteins
   * I designed and developed a closest protein prediction algorithm which finds the most similar protein for the query protein from the HPRD(Human Protein Reference Database).
@@ -9,13 +10,14 @@
   * *Note will we public soon*
 
 ### Experience in Big Data Visualisation, Scraping, Data Aquisition, and Graph Databases[](#experience-in-big-data-visualisation,- scraping,-data-aquisition,-and-graph-databases)
+```Relational Database```   ```Graph Database(Neo4j)```  ```Gephi```  ```WebGL```  ```Visjs and sigmajs```  ```D3js and Threejs```
 * **Dispel**
- * objective of this project was to create network graph on web for medicinal plant and human disease cured by them
- * I have designed and developed a web portal for accessing and visualization of a relational database.
- * Curated Database of medicinal plants and disease cured by them is also prepared by me having around 5k medicinal plants.
- * An algorithm to find the most important medicinal plant is implemented, another algorithm which assign a weight to the nodes of the network which are basically medicinal plants for us has also been implemented, data for the algorithm is collected from the research paper, books, internet sites, thesis, and statistics.
- * Technologies and software that I used for that are Python, Django, Neo4j, Javascript, HTML, CSS, and WebGL
- * Wireframe Protype is available [here](https://graphweb.herokuapp.com/)
+  * objective of this project was to create network graph on web for medicinal plant and human disease cured by them
+  * I have designed and developed a web portal for accessing and visualization of a relational database.
+  * Curated Database of medicinal plants and disease cured by them is also prepared by me having around 5k medicinal plants.
+  * An algorithm to find the most important medicinal plant is implemented, another algorithm which assign a weight to the nodes of the network which are basically medicinal plants for us has also been implemented, data for the algorithm is collected from the research paper, books, internet sites, thesis, and statistics.
+  * Technologies and software that I used for that are Python, Django, Neo4j, Javascript, HTML, CSS, and WebGL
+  * Wireframe Protype is available [here](https://graphweb.herokuapp.com/)
 
 ### Experience in Deep Learning and Machine Learning[](#experience-in-deep-learning-an-machine-learning)
 ```Computer Vision```   ```Signal Processing```  ```CNN```  ```RNN```  ```Object Detection```  ```Digital Image Processing``` 
