@@ -1,6 +1,5 @@
-[durgesh](#experience-in-deep-learning-and-machine-learning)<br>
-
-[kumar](#durgesh-kumar)
+[](#experience-in-deep-learning-and-machine-learning)<br>
+[](#durgesh-kumar)
 ### Experience in  Machine learning, Linux architecture, Shell Scripts, and Development.
 * I designed and developed a closest protein prediction algorithm which finds the most similar protein for the query protein from the HPRD [Human Protein Reference Database].
 A web portal is also been developed to provide algorithm's access to the world, where anyone can submit their query protein and our server will find the closest protein for them and the results are shown with proper visualization.[beta the version is available here].
