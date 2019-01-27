@@ -1,13 +1,13 @@
 ### Experience in  Machine learning, Linux architecture, Shell Scripts, and Development.
 ```SVM```   ```Computatinal Biology```  ```Shell Scripts```  ```Django```  ```HPC```  ```Big Data``` ```Bioinformatics```  ```Visualisation```
 * **PPI**
-  * objective of the project was to predict the interations of protein of any pathogen with Human Proteins
+  * Objective of the project was to predict the interations of protein of any pathogen with Human Proteins
   * I designed and developed a closest protein prediction algorithm which finds the most similar protein for the query protein from the HPRD(Human Protein Reference Database).
   * Support Vector machine is used to find the similiarity between secondary structure
-  * A web portal is also been developed to provide algorithm's access to the world, where anyone can submit their query protein and our server will find the closest protein for them and the results are shown with proper visualization.beta the version is available [here](https://compbio.iitr.ac.in/ppi).
+  * A web portal is also been developed to provide algorithm's access to the world, where anyone can submit their query protein and our server will find the closest protein for them and the results are shown with proper visualization.(beta the version is available [here](https://compbio.iitr.ac.in/ppi))
   * Technologies used are Machine learning, Python, Linux Shell Scripts, Javascript, HTML, CSS, Locally configured Linux packages.
   * Packages from Computaional Biology and Bioinformatics Domain like Modeller, Kpax, Blast, Muster, Psipred, Pymol, Clastalo are used
-  * *Note will we public soon*
+  * *Note code will we public soon*
 
 ### Experience in Big Data Visualisation, Scraping, Data Aquisition, and Graph Databases
 ```Relational Database```   ```Graph Database(Neo4j)```  ```Gephi```  ```WebGL```  ```Visjs and sigmajs```  ```D3js and Threejs```
