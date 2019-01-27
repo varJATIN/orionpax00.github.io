@@ -1,4 +1,4 @@
-[durgesh](#experience-in-deep-learning-&-machine-learning)<br>
+[durgesh](#experience-in-deep-learning-and-machine-learning)<br>
 
 [kumar](#durgesh-kumar)
 ### Experience in  Machine learning, Linux architecture, Shell Scripts, and Development.
@@ -12,7 +12,7 @@ Curated Database of medicinal plants and disease cured by them is also prepared 
 An algorithm to find the most important medicinal plant is implemented, another algorithm which assign a weight to the nodes of the network which are basically medicinal plants for us has also been implemented, data for the algorithm is collected from the research paper, books, internet sites, thesis, and statistics.
 Technologies and software that I used for that are Python, Django, Neo4j, Javascript, HTML, CSS, and WebGL
 
-### Experience in Deep Learning & Machine Learning
+### Experience in Deep Learning and Machine Learning
 ```Computer Vision```   ```Signal Processing```  ```CNN```  ```RNN```  ```Object Detection```  ```Digital Image Processing``` 
 
 * **ECG and EEG signal Processing**<br>
@@ -35,7 +35,7 @@ Technologies and software that I used for that are Python, Django, Neo4j, Javasc
   * I used tensorflow model's object detection to get the specific part out 
   * I generate data using [Labelimg](https://github.com/tzutalin/labelImg) which is a tool to create annotation file for image written in python
 
-* OCR 
+* **OCR** 
   * Objective of this project is to get knowledge about Optical character Recognition
   * I used the tensorflow implementation of [EAST: An Efficient and Accurate Scene Text Detector](https://github.com/argman/EAST) algorithm
 * **EEG and RR-Interval data From AIIMS Rishikesh**
