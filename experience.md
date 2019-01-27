@@ -12,16 +12,7 @@ An algorithm to find the most important medicinal plant is implemented, another 
 Technologies and software that I used for that are Python, Django, Neo4j, Javascript, HTML, CSS, and WebGL
 
 ### Experience in Deep Learning & Machine Learning[](#Durgesh)
-* Computer Vision and Signal Processing 
-* CNN and RNN 
-```html
-<span>Durgesh</span>
-```
-```css
-span {
-    background:red;
-    }
-```
+```Computer Vision```   ```Signal Processing```  ```CNN``` ```RNN```
 * I have been learning and practicing different Algorithms and framework of Deep Learning and Machine Learning since last year.
 My topics of interest in the area of Artificial intelligence are Computer Vision(Image Processing and Classification), Signal Processing(Bio-Signal and Sound Signals), and Applied Research.
 Applied this for development of a web framework for monitoring of students during their online exam by taking video input using the webcam and detecting the posture of the student to make the final prediction of the state of the student. I further extended this to multi-person pose estimation using OpenPose and I used LSTM for classification of poses in streaming video.
