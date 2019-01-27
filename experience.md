@@ -1,15 +1,15 @@
-### Experience in  Machine learning, Linux architecture, Shell Scripts, and Development.[]
+### Experience in  Machine learning, Linux architecture, Shell Scripts, and Development.
 * I designed and developed a closest protein prediction algorithm which finds the most similar protein for the query protein from the HPRD [Human Protein Reference Database].
 A web portal is also been developed to provide algorithm's access to the world, where anyone can submit their query protein and our server will find the closest protein for them and the results are shown with proper visualization.[beta the version is available here].
 Technologies used are Machine learning, Python, Linux Shell Scripts, Javascript, HTML, CSS, Locally configured Linux packages.
 
-### Experience in Big Data Visualisation, Scraping, Data Aquisition, and Graph Databases[]
+### Experience in Big Data Visualisation, Scraping, Data Aquisition, and Graph Databases
 * During previous year's summer vacation I have designed and developed a web portal for accessing and visualization of a relational database of medicinal plants and disease cured by them in the form of network graphs and web animation. and the related information about a plant and a disease is also portrayed in the form of graph, maps, and animations.
 Curated Database of medicinal plants and disease cured by them is also prepared by me having around 5k medicinal plants.
 An algorithm to find the most important medicinal plant is implemented, another algorithm which assign a weight to the nodes of the network which are basically medicinal plants for us has also been implemented, data for the algorithm is collected from the research paper, books, internet sites, thesis, and statistics.
 Technologies and software that I used for that are Python, Django, Neo4j, Javascript, HTML, CSS, and WebGL
 
-### Experience in Deep Learning & Machine Learning[]
+### Experience in Deep Learning & Machine Learning
 ```Computer Vision```   ```Signal Processing```  ```CNN```  ```RNN```  ```Object Detection```  ```Digital Image Processing``` 
 
 * **ECG and EEG signal Processing**<br>
@@ -32,7 +32,7 @@ Technologies and software that I used for that are Python, Django, Neo4j, Javasc
   * I used tensorflow model's object detection to get the specific part out 
   * I generate data using [Labelimg](https://github.com/tzutalin/labelImg) which is a tool to create annotation file for image written in python
 
-* **OCR**[](#OCR)
+#### OCR [fkfk](#OCR)
   * Objective of this project is to get knowledge about Optical character Recognition
   * I used the tensorflow implementation of [EAST: An Efficient and Accurate Scene Text Detector](https://github.com/argman/EAST) algorithm
 * **EEG and RR-Interval data From AIIMS Rishikesh**
