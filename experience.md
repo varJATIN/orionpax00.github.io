@@ -9,7 +9,7 @@
   * Packages from Computaional Biology and Bioinformatics Domain like Modeller, Kpax, Blast, Muster, Psipred, Pymol, Clastalo are used
   * *Note will we public soon*
 
-### Experience in Big Data Visualisation, Scraping, Data Aquisition, and Graph Databases[](#experience-in-big-data-visualisation,- scraping,-data-aquisition,-and-graph-databases)
+### Experience in Big Data Visualisation, Scraping, Data Aquisition, and Graph Databases
 ```Relational Database```   ```Graph Database(Neo4j)```  ```Gephi```  ```WebGL```  ```Visjs and sigmajs```  ```D3js and Threejs```
 * **Dispel**
   * objective of this project was to create network graph on web for medicinal plant and human disease cured by them
