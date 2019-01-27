@@ -1,3 +1,5 @@
+[link](#Durgesh)
+
 ### Experience in  Machine learning, Linux architecture, Shell Scripts, and Development.
 * I designed and developed a closest protein prediction algorithm which finds the most similar protein for the query protein from the HPRD [Human Protein Reference Database].
 A web portal is also been developed to provide algorithm's access to the world, where anyone can submit their query protein and our server will find the closest protein for them and the results are shown with proper visualization.[beta the version is available here].
@@ -20,3 +22,5 @@ Video Processing and Gesture detection using cascade file with the help of OpenC
 * I have Worked on Brain as well as cardiac signals which includes filtering, feature detection, and classification. Data filtering was a tedious task which requires the proper knowledge of data that is being used and different filtering methodologies like I have used Wavelet transformations, Fourier transformations and Butter Worth filters to reduce the noise content in EEG and ECG signals. Pan Tompkins Algorithm for Peak Detections in  ECG and pre-trained artifact removers for EEG artifact removal.
 Worked on many datasets from UCI ML Repository and Physionet and one from the University of Bern Barcelona, I also worked patient's data acquired from AIIMS Rishikesh.
 The final step of it is the classification of signals to different categories I have tried different prediction and clustering algorithms and fine-tuned them give better results.
+
+## Durgesh
