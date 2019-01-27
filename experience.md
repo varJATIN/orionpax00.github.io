@@ -1,6 +1,6 @@
 ### Experience in  Machine learning, Linux architecture, Shell Scripts, and Development.
 ```SVM```   ```Computatinal Biology```  ```Shell Scripts```  ```Django```  ```HPC```  ```Big Data``` ```Bioinformatics```  ```Visualisation```
-* **PPI**
+* **PPI (Protein Protein Interaction)**
   * Objective of the project was to predict the interations of protein of any pathogen with Human Proteins
   * I designed and developed a closest protein prediction algorithm which finds the most similar protein for the query protein from the HPRD(Human Protein Reference Database).
   * Support Vector machine is used to find the similiarity between secondary structure
