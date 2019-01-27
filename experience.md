@@ -1,3 +1,4 @@
+[durgesh](#Experience-in-Deep-Learning-&-Machine-Learning)
 ### Experience in  Machine learning, Linux architecture, Shell Scripts, and Development.
 * I designed and developed a closest protein prediction algorithm which finds the most similar protein for the query protein from the HPRD [Human Protein Reference Database].
 A web portal is also been developed to provide algorithm's access to the world, where anyone can submit their query protein and our server will find the closest protein for them and the results are shown with proper visualization.[beta the version is available here].
@@ -32,7 +33,7 @@ Technologies and software that I used for that are Python, Django, Neo4j, Javasc
   * I used tensorflow model's object detection to get the specific part out 
   * I generate data using [Labelimg](https://github.com/tzutalin/labelImg) which is a tool to create annotation file for image written in python
 
-#### OCR [fkfk](#OCR)
+* OCR 
   * Objective of this project is to get knowledge about Optical character Recognition
   * I used the tensorflow implementation of [EAST: An Efficient and Accurate Scene Text Detector](https://github.com/argman/EAST) algorithm
 * **EEG and RR-Interval data From AIIMS Rishikesh**
@@ -57,4 +58,3 @@ Video Processing and Gesture detection using cascade file with the help of OpenC
 Worked on many datasets from UCI ML Repository and Physionet and one from the University of Bern Barcelona, I also worked patient's data acquired from AIIMS Rishikesh.
 The final step of it is the classification of signals to different categories I have tried different prediction and clustering algorithms and fine-tuned them give better results.
 
-## Durgesh
