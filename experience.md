@@ -17,7 +17,7 @@
   * Curated Database of medicinal plants and disease cured by them is also prepared by me having around 5k medicinal plants.
   * An algorithm to find the most important medicinal plant is implemented, another algorithm which assign a weight to the nodes of the network which are basically medicinal plants for us has also been implemented, data for the algorithm is collected from the research paper, books, internet sites, thesis, and statistics.
   * Technologies and software that I used for that are Python, Django, Neo4j, Javascript, HTML, CSS, and WebGL
-  * Wireframe Protype is available [here](https://graphweb.herokuapp.com/)
+  * Wireframe Protype is available [here](https://graphweb.herokuapp.com/primus/)
 
 ### Experience in Deep Learning and Machine Learning[](#experience-in-deep-learning-an-machine-learning)
 ```Computer Vision```   ```Signal Processing```  ```CNN```  ```RNN```  ```Object Detection```  ```Digital Image Processing``` 
