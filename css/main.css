@@ -2608,3 +2608,82 @@ nav a:hover {
 .logo img {
   width:20px
 }
+
+.paragraph {
+  font-size: 130%;
+}
+.link {
+  color:#66d4fb;
+  transition-duration: 0.3s;
+}
+
+.link:hover {
+  color:#00729a;
+  transform:scale(1.5);
+}
+
+/* mouse icon animation */
+.mouse{
+  	position: fixed;
+  	left:calc(50vw - 12px);
+    bottom: 60px
+}
+.mouse-icon{
+   width: 25px;
+   height: 45px;
+   border: 2px solid #66d4fb;
+   border-radius: 15px;
+   cursor: pointer;
+   position: relative;
+   text-align: center;
+}
+.mouse-wheel{
+  height: 6px;
+  margin: 2px auto 0;
+  display: block;
+  width: 3px;
+  background-color: #66d4fb;
+  border-radius: 50%;
+  -webkit-animation: 1.6s ease infinite wheel-up-down;
+ -moz-animation: 1.6s ease infinite wheel-up-down;
+  animation: 1.6s ease infinite wheel-up-down;
+}
+@-webkit-keyframes wheel-up-down {
+	0% {
+	    margin-top: 2px;
+	    opacity: 0;
+	}
+	30% {
+	    opacity: 1;
+	}
+	100% {
+	    margin-top: 20px;
+	    opacity: 0;
+	}
+}
+@-moz-keyframes wheel-up-down {
+	0% {
+	    margin-top: 2px;
+	    opacity: 0;
+	}
+	30% {
+	    opacity: 1;
+	}
+	100% {
+	    margin-top: 20px;
+	    opacity: 0;
+	}
+}
+@keyframes wheel-up-down {
+	0% {
+	    margin-top: 2px;
+	    opacity: 0;
+	}
+	30% {
+	    opacity: 1;
+	}
+	100% {
+	    margin-top: 20px;
+	    opacity: 0;
+	}
+}
