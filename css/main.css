@@ -2893,6 +2893,12 @@ nav a:hover {
   padding: 40px;
 }
 
+@media (max-width: 767px) {
+  .grid{
+    padding: 5px;
+  }
+}
+
 /* clear fix */
 .grid:after {
   content: '';
