@@ -72,24 +72,25 @@
 				</div>
 			</div>
 
-			<div class="button-group filters-button-group">
-				<button class="button is-checked" data-filter="*">show all</button>
-				<button class="button" data-filter=".metal">metal</button>
-				<button class="button" data-filter=".transition">transition</button>
-				<button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
-				<button class="button" data-filter=":not(.transition)">not transition</button>
-				<button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
-				<button class="button" data-filter="numberGreaterThan50">number > 50</button>
-				<button class="button" data-filter="ium">name ends with &ndash;ium</button>
+			
+
+			<div class="container">
+			<div class="button-group filters-button-group row">
+					<button class="button is-checked" data-filter="*">show all</button>
+					<button class="button" data-filter=".metal">metal</button>
+					<button class="button" data-filter=".transition">transition</button>
+					<button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+					<button class="button" data-filter=":not(.transition)">not transition</button>
+					<button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+					<button class="button" data-filter="numberGreaterThan50">number > 50</button>
+					<button class="button" data-filter="ium">name ends with &ndash;ium</button>
 			</div>
-
-
-			<div class="grid container">
+			<div class="grid">
 				<a href="https://github.com" target="_blank">
-				<div class="grid-item transition metal " data-category="transition">
-					<div class="card card_style col-centered">
+				<div class="grid-item transition metal" data-category="transition">
+					<div class="card card_style ">
 						<blockquote class="blockquote mb-0 card-body">
-							<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.<br> Integer posuere erat a ante.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Integer posuere erat a ante.</p>
 							<footer class="blockquote-footer">
 							<small class="text-muted">
 								Someone famous in <cite title="Source Title">Source Title</cite>
@@ -99,18 +100,28 @@
 					</div>
 				</div>
 				</a>
+				<div class="grid-item ">
+					<div class="card card_style card_style text-white bg-secondary mb-3" style="max-width: 18rem;">
+						<div class="card-header">Header</div>
+						<div class="card-body">
+							<h5 class="card-title">Secondary card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+				
 				<div class="grid-item">
-					<div class="card card_style">
-						<img class="card-img-top" src="img/tensorflow.png" alt="Card image cap">
+					<div class="card card_style card_style">
+						<img class="card-img-top img-fluid" src="img/tensorflow.png" alt="card card_style image cap">
 						<div class="card-body">
 							<h5 class="card-title">Card title</h5>
-							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<p class="card-text">This card has supporting text <br>below as a natural lead-in to additional content.</p>
 							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 						</div>
 					</div>
 				</div>
 				<div class="grid-item">
-					<div class="card" style="width: 18rem;">
+					<div class="card card_style" style="width: 18rem;">
 						<div class="card-body">
 							<h5 class="card-title">Card title</h5>
 							<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -120,19 +131,9 @@
 						</div>
 					</div>
 				</div>
+				
 				<div class="grid-item">
-					<div class="card" style="width: 38rem;">
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="card-link">Card link</a>
-							<a href="#" class="card-link">Another link</a>
-						</div>
-					</div>
-				</div>
-				<div class="grid-item">
-					<div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+					<div class="card card_style text-white bg-secondary mb-3" style="max-width: 18rem;">
 						<div class="card-header">Header</div>
 						<div class="card-body">
 							<h5 class="card-title">Secondary card title</h5>
@@ -141,7 +142,7 @@
 					</div>
 				</div>
 				<div class="grid-item">
-						<div class="card p-3">
+						<div class="card card_style p-3">
 							<blockquote class="blockquote mb-0 card-body">
 								<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Integer posuere erat a ante.</p>
 								<footer class="blockquote-footer">
@@ -153,8 +154,8 @@
 						</div>
 					</div>
 					<div class="grid-item">
-						<div class="card">
-							<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card card_style">
+							<img class="card-img-top" src="..." alt="card card_style image cap">
 							<div class="card-body">
 								<h5 class="card-title">Card title</h5>
 								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -163,7 +164,7 @@
 						</div>
 					</div>
 					<div class="grid-item">
-						<div class="card" style="width: 18rem;">
+						<div class="card card_style" style="width: 18rem;">
 							<div class="card-body">
 								<h5 class="card-title">Card title</h5>
 								<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -173,19 +174,10 @@
 							</div>
 						</div>
 					</div>
+
+					
 					<div class="grid-item">
-						<div class="card" style="width: 38rem;">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#" class="card-link">Card link</a>
-								<a href="#" class="card-link">Another link</a>
-							</div>
-						</div>
-					</div>
-					<div class="grid-item">
-						<div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+						<div class="card card_style text-white bg-secondary mb-3" style="max-width: 18rem;">
 							<div class="card-header">Header</div>
 							<div class="card-body">
 								<h5 class="card-title">Secondary card title</h5>
@@ -194,7 +186,7 @@
 						</div>
 					</div>
 					<div class="grid-item">
-							<div class="card p-3">
+							<div class="card card_style p-3">
 								<blockquote class="blockquote mb-0 card-body">
 									<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Integer posuere erat a ante.</p>
 									<footer class="blockquote-footer">
@@ -206,8 +198,8 @@
 							</div>
 						</div>
 						<div class="grid-item">
-							<div class="card">
-								<img class="card-img-top" src="..." alt="Card image cap">
+							<div class="card card_style">
+								<img class="card-img-top" src="..." alt="card card_style image cap">
 								<div class="card-body">
 									<h5 class="card-title">Card title</h5>
 									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -216,7 +208,7 @@
 							</div>
 						</div>
 						<div class="grid-item">
-							<div class="card" style="width: 18rem;">
+							<div class="card card_style" style="width: 18rem;">
 								<div class="card-body">
 									<h5 class="card-title">Card title</h5>
 									<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -226,19 +218,10 @@
 								</div>
 							</div>
 						</div>
+						
+						
 						<div class="grid-item">
-							<div class="card" style="width: 38rem;">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									<a href="#" class="card-link">Card link</a>
-									<a href="#" class="card-link">Another link</a>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item">
-							<div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+							<div class="card card_style text-white bg-secondary mb-3" style="max-width: 18rem;">
 								<div class="card-header">Header</div>
 								<div class="card-body">
 									<h5 class="card-title">Secondary card title</h5>
@@ -247,7 +230,7 @@
 							</div>
 						</div>
 						<div class="grid-item">
-								<div class="card p-3">
+								<div class="card card_style p-3">
 									<blockquote class="blockquote mb-0 card-body">
 										<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Integer posuere erat a ante.</p>
 										<footer class="blockquote-footer">
@@ -259,8 +242,8 @@
 								</div>
 							</div>
 							<div class="grid-item">
-								<div class="card">
-									<img class="card-img-top" src="..." alt="Card image cap">
+								<div class="card card_style">
+									<img class="card-img-top" src="..." alt="card card_style image cap">
 									<div class="card-body">
 										<h5 class="card-title">Card title</h5>
 										<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -269,7 +252,7 @@
 								</div>
 							</div>
 							<div class="grid-item">
-								<div class="card" style="width: 08rem;">
+								<div class="card card_style" style="width: 18rem;">
 									<div class="card-body">
 										<h5 class="card-title">Card title</h5>
 										<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -280,7 +263,7 @@
 								</div>
 							</div>
 							<div class="grid-item">
-								<div class="card" style="width: 23rem;">
+								<div class="card card_style" style="width: 20rem;">
 									<div class="card-body">
 										<h5 class="card-title">Card title</h5>
 										<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -291,7 +274,7 @@
 								</div>
 							</div>
 							<div class="grid-item">
-								<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+								<div class="card card_style text-white bg-primary mb-3" style="max-width: 18rem;">
 									<div class="card-header">Header</div>
 									<div class="card-body">
 										<h5 class="card-title">Secondary card title</h5>
@@ -301,7 +284,7 @@
 							</div>
 
 							<div class="grid-item">
-								<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+								<div class="card card_style text-white bg-success mb-3" style="max-width: 18rem;">
 									<div class="card-header">Header</div>
 									<div class="card-body">
 										<h5 class="card-title">Secondary card title</h5>
@@ -310,7 +293,7 @@
 								</div>
 							</div>
 							<div class="grid-item">
-								<div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+								<div class="card card_style text-white bg-warning mb-3" style="max-width: 18rem;">
 									<div class="card-header">Header</div>
 									<div class="card-body">
 										<h5 class="card-title">Secondary card title</h5>
@@ -320,7 +303,7 @@
 							</div>
 			
 			</div>
-
+		</div>
 
 					
 
