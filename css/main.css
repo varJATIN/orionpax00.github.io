@@ -2603,7 +2603,7 @@ nav a:hover {
   font-size: 130%;
 }
 .link {
-  color:#66d4fb;
+  color:#fff;
   transition-duration: 0.3s;
 }
 
@@ -2613,9 +2613,9 @@ nav a:hover {
 }
 .navlink {
   font-style:None;
-  color:#00bcff; 
-  font-size:135%; 
-  font-weight:900;
+  color:#21fdc0; 
+  font-size:155%; 
+  font-weight:600;
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
@@ -2711,6 +2711,9 @@ nav a:hover {
   }
   .banner-content a{
     display: none;
+  }
+  .profile_pic{
+    margin-top:-80px;
   }
 }
 
@@ -2976,3 +2979,17 @@ nav a:hover {
   border-right:1px solid transparent;
 }
 
+/*TOP buttons*/
+
+
+.btn.btn-resume{
+  border: 0px solid transparent;
+  margin-right: 15px;
+}
+.btn.btn-resume:hover{
+  cursor: pointer;
+}
+.btn.btn-resume:focus {outline:0 !important;}
+.btn.btn-resume:active{
+  outline: 0;
+}
