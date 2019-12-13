@@ -50,8 +50,9 @@ document.addEventListener('click', function (e) {
 
 
 var $grid = $('.grid').isotope({
-  layoutMode: 'packery',
-  itemSelector: '.grid-item'
+  itemSelector: '.grid-item',
+  layoutMode: 'fitRows',
+  percentPosition: true,
 });
 
 var filterFns = {
@@ -80,4 +81,15 @@ $('.button-group').each( function( i, buttonGroup ) {
     $buttonGroup.find('.is-checked').removeClass('is-checked');
     $( this ).addClass('is-checked');
   });
+});
+
+
+// smooth scrolling function
+
+$(document).on('click', 'a[href^="#"]', function (event) {
+  event.preventDefault();
+
+  $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+  }, 500);
 });
