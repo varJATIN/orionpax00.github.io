@@ -2038,7 +2038,7 @@ nav a:hover {
 
 @media (max-width: 767px) {
   .banner-content {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 
@@ -2066,10 +2066,26 @@ nav a:hover {
   margin-bottom: 60px;
   font-size: 16px;
 }
+.banner-content h1:before{
+  content:"{oh hi}";
+  position:absolute;
+  top: -60px;
+  left: 10px;
+  color:#26b0c6;
+  font-family:'Kaushan Script', cursive;
+}
 
 @media (max-width: 767px) {
   .banner-content p {
     margin-bottom: 20px;
+  }
+  .banner-content h1:before{
+    content: "{oh hi}";
+    position: absolute;
+    top: 0px;
+    left: 55px;
+    color: #26b0c6;
+    font-family: 'Kaushan Script', cursive;
   }
 }
 
@@ -2716,7 +2732,7 @@ nav a:hover {
     display: none;
   }
   .profile_pic{
-    margin-top:-280px;
+    margin-top:-200px;
   }
   .banner-content h1{
     font-size: 325%;
@@ -3126,11 +3142,3 @@ button:focus { outline: none; border-radius: 0px;}
   border-radius: 0px;
 }
 
-.banner-content h1:before{
-  content:"{oh hi}";
-  position:absolute;
-  top: -60px;
-  left: 10px;
-  color:#26b0c6;
-  font-family:'Kaushan Script', cursive;
-}
