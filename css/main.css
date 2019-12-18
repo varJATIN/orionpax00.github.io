@@ -52,7 +52,6 @@
 
 body {
   color: #777777;
-  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5em;
@@ -1897,7 +1896,6 @@ nav {
     text-align: right;
     padding: 20px 0;
     z-index: 5;
-    background: #fff;
   }
 }
 
@@ -2718,7 +2716,10 @@ nav a:hover {
     display: none;
   }
   .profile_pic{
-    margin-top:-80px;
+    margin-top:-280px;
+  }
+  .banner-content h1{
+    font-size: 325%;
   }
 }
 
@@ -3123,4 +3124,13 @@ button:focus { outline: none; border-radius: 0px;}
 .modal-content {
   border:0px solid transparent;
   border-radius: 0px;
+}
+
+.banner-content h1:before{
+  content:"{oh hi}";
+  position:absolute;
+  top: -60px;
+  left: 10px;
+  color:#26b0c6;
+  font-family:'Kaushan Script', cursive;
 }
